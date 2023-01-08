@@ -8,9 +8,7 @@
         <title>Weather</title>
     </head>
     <body>
-        <div>
-            <h1>Current Weather</h1>
-        </div>
+        <header>Current Weather</header>
         <section class="container">
             <form>
                 <div>
@@ -20,9 +18,78 @@
                     </div>
                 </div>
             </form>
-            <div>
-                <ul class="cities"></ul>
-            </div>
+            <forecast>
+                <div id="current-weather">
+                    <h2>The Weather of Right Now</h2>
+                    <div class="row">
+                        <div class="data-container" id="current">
+                            <div id="temperature"></div>
+                            <div id="humidity"></div>
+                            <div id="wind"></div>
+                            <div id="uv"></div>
+                        </div>
+                        <div id="icon-current"></div>
+                    </div>
+                </div>
+                <div id="five-day">
+                    <h2>The Weather of The Future</h2>
+                    <div>
+                        <div id="day-one">
+                            <div class="card-body">
+                                <div id="day1-title" class="day-title"></div>
+                                <img src="" id="card0-icon" class="day-icon"></img>
+                                <div id="card0-temperature"></div>
+                                <div id="card0-humidity"></div>
+                                <div id="card0-wind"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="day-two">
+                            <div class="card-body">
+                                <div id="day2-title" class="day-title"></div>
+                                <img src="" id="card-icon" class="day-icon"></img>
+                                <div id="card1-temperature"></div>
+                                <div id="card1-humidity"></div>
+                                <div id="card1-wind"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="day-three">
+                            <div class="card-body">
+                                <div id="day3-title" class="day-title"></div>
+                                <img src="" id="card2-icon" class="day-icon"></img>
+                                <div id="card2-temperature"></div>
+                                <div id="card2-humidity"></div>
+                                <div id="card2-wind"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="day-four">
+                            <div class="card-body">
+                                <div id="day4-title" class="day-title"></div>
+                                <img src="" id="card3-icon" class="day-icon"></img>
+                                <div id="card3-temperature"></div>
+                                <div id="card3-humidity"></div>
+                                <div id="card3-wind"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="day-five">
+                            <div class="card-body">
+                                <div id="day5-title" class="day-title"></div>
+                                <img src="" id="card4-icon" class="day-icon"></img>
+                                <div id="card4-temperature"></div>
+                                <div id="card4-humidity"></div>
+                                <div id="card4-wind"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </forecast>
         </section>
     </body>
 
