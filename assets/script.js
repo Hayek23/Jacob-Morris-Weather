@@ -6,7 +6,7 @@ const temperature = document.querySelector('#temperature');
 const humidity = document.querySelector('#humidity');
 const wind = document.querySelector('#wind');
 const uv = document.querySelector('#uv');
-const key = 'ab9f65dea451c4b7f6c92a9815fed957'
+const key = '3791eebe6ed39c7f8a72ed2927906fdd'
 
 const formSubmitHandler = (event) => {
     event.preventDefault();
